@@ -37,7 +37,7 @@ Por ser uma aplicação que suporta várias conversas, o registro inicial deve s
 *Crie só 2 registros*
 
 - **Rota de autenticação:**
-- 
+
 `https://api-giulen.herokuapp.com/auth/authenticate`
 
 Nessa rota, ao ser solicitada a autenticação, são enviados os seguintes campos via método POST: 
