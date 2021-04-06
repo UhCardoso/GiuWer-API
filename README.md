@@ -31,7 +31,9 @@ Brincadeiras a parte, bora para as features!
 Por ser uma aplicação que suporta várias conversas, o registro inicial deve ser feito pelo [Postaman](https://www.postman.com/) ou [Insomnia](https://insomnia.rest/download), passando os seguintes campos no corpo JSON via método POST:
 
     `"name": "Nome Teste"`,
+    
 	`"username":"nome_usuário",`
+	
 	`"password": "uma_senha_de_acesso"`
 
 *Crie só 2 registros*
@@ -43,6 +45,7 @@ Por ser uma aplicação que suporta várias conversas, o registro inicial deve s
 Nessa rota, ao ser solicitada a autenticação, são enviados os seguintes campos via método POST: 
 
     `"username":"nome_usuário",`
+    
 	`"password": "senha_de_acesso"`
 
 Na aplicação frontend eu utilizo a biblioteca *Axios* para realizar a requisição.
