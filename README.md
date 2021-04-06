@@ -1,5 +1,7 @@
 # GiuWer
+
 (*Apenas para estudo*)
+
 É uma aplicação de troca de mensagens simples. Ela foi desenvolvida para que eu pudesse praticar as renderizações em tempo real, na aplicação ReacJS, utilizando o *Socket.io* e também praticar o uso da *contextAPI* para efetuar a autenticação da aplicacação.
 
 Ela não suporta várias cponversas ao msm tempo. Então é uma boa para você usar com aquele amigo de confiança ou com sua(seu) crush que sempre têm a desculpa de não gostar de entrar nos aplicativos de mensagens convencionais hahaha
@@ -23,6 +25,7 @@ Brincadeiras a parte, bora para as features!
 ## Features
 
 - **Rota de registro:**
+- 
 `https://api-giulen.herokuapp.com/auth/register`
 
 Por ser uma aplicação que suporta várias conversas, o registro inicial deve ser feito pelo [Postaman](https://www.postman.com/) ou [Insomnia](https://insomnia.rest/download), passando os seguintes campos no corpo JSON via método POST:
@@ -34,6 +37,7 @@ Por ser uma aplicação que suporta várias conversas, o registro inicial deve s
 *Crie só 2 registros*
 
 - **Rota de autenticação:**
+- 
 `https://api-giulen.herokuapp.com/auth/authenticate`
 
 Nessa rota, ao ser solicitada a autenticação, são enviados os seguintes campos via método POST: 
