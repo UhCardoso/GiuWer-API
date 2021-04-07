@@ -14,8 +14,8 @@ Brincadeiras a parte, bora para as features!
 ## Instalação
 
 - 1- Antes de tudo você deverá ter o [Nodejs](https://nodejs.org) instalado na sua máquina.
-- 2- Abra o seu terminal e dê o comando `git clone https://github.com/UhCardoso/giulen-API.git`
-- 3- Dê o comando `cd giulen-API`
+- 2- Abra o seu terminal e dê o comando `git clone https://github.com/UhCardoso/GiuWer-API.git`
+- 3- Dê o comando `cd GiuWer-API`
 - 4- Dê o comando `npm install`
 - 5- Configure a sua conexão com o banco de dados MongoDB no arquivo `/src/database/index.js`. Você pode criar um BD online no site do [Mongodb Atlas](https://www.mongodb.com/cloud/atlas) para configurar o banco de dados.
 - 6- execute o programa com o comando `npm start`
